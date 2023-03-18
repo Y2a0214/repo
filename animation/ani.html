@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            animation-name: bounce;
+            animation-duration: 2s;
+            animation-timing-function: ease;
+            animation-delay: 1s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            width: 140px;
+            height: 60px;
+            background-color: cadetblue;
+            margin: 100px;
+            border-radius: 50%;
+            text-align: center;
+            font-weight: bolder;
+            font-size: 30px;
+            padding: 20px 0px 0px 0px;
+            letter-spacing: 2px;
+            position: relative;
+        }
+        @keyframes bounce{
+            0% {
+                bottom: 0;
+                box-shadow: 0 0 5px  gray;
+            }
+            100% {
+                bottom: 50px;
+                box-shadow: 0 20px 8px rgb(255, 255, 255);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">Bounce</div>
+</body>
+</html>

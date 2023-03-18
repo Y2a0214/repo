@@ -1,0 +1,108 @@
+.main_content{
+    background-color: lightblue;
+    width: 670px;
+    height: 450px;
+    display: inline-block;
+}
+.first_row,.second_row,.three_row,.foure_row{
+    border: 1px solid black;
+    width: 100%;
+    height: 24%;
+    display: inline-block;
+}
+.first_child1{
+    background-color: blue;
+    width: 24%;
+    height: 100%;
+    display: inline-block;
+}
+.second_child1{
+    background-color: blueviolet;
+    width: 24%;
+    height: 100%;
+    display: inline-block;
+}
+.three_child1{
+    background-color: brown;
+    width: 24%;
+    height: 100%;
+    display: inline-block;
+}
+.four_child1{
+    background-color: burlywood;
+    width: 24%;
+    height: 100%;
+    display: inline-block;
+}
+.first_child2{
+    background-color: blue;
+    width: 24%;
+    height: 100%;
+    display: inline-block;
+}
+.second_child2{
+    background-color: blueviolet;
+    width: 24%;
+    height: 100%;
+    display: inline-block;
+}
+.three_child2{
+    background-color: brown;
+    width: 24%;
+    height: 100%;
+    display: inline-block;
+}
+.four_child2{
+    background-color: burlywood;
+    width: 24%;
+    height: 100%;
+    display: inline-block;
+}
+.first_child3{
+    background-color: blue;
+    width: 24%;
+    height: 100%;
+    display: inline-block;
+}
+.second_child3{
+    background-color: blueviolet;
+    width: 24%;
+    height: 100%;
+    display: inline-block;
+}
+.three_child3{
+    background-color: brown;
+    width: 24%;
+    height: 100%;
+    display: inline-block;
+}
+.four_child3{
+    background-color: burlywood;
+    width: 24%;
+    height: 100%;
+    display: inline-block;
+}
+.first_child4{
+    background-color: blue;
+    width: 24%;
+    height: 100%;
+    display: inline-block;
+}
+.second_child4{
+    background-color: blueviolet;
+    width: 24%;
+    height: 100%;
+    display: inline-block;
+}
+.three_child4{
+    background-color: brown;
+    width: 24%;
+    height: 100%;
+    display: inline-block;
+}
+.four_child4{
+    background-color: burlywood;
+    width: 24%;
+    height: 100%;
+    display: inline-block;
+}

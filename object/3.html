@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let city = {
+            //cityname: "pune",
+            cityname: "kashmir",
+            in: "india",
+            citycode: 3344,
+            state: {
+                statename: "j&k",
+                pincode: 313913,
+                country: {
+                    countryname: "india",
+                    location: {
+                        locatedin: "north india",
+                        wether: {
+                            winter: "6 months",
+                            summers: "4 months",
+                            monsoon: "2 months",
+                            nooftourst: {
+                                number: "43k",
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        delete city["state"]["country"]["location"]["wether"]["monsoon"]
+        city.state.country.location["continent"] = "asia"
+        console.log (city)
+    </script>
+</body>
+</html>

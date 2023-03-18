@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main_content{
+            flex-direction: column;
+            display: flex;
+        }
+        .first_row1,.second_row2{
+            width: 500px;
+            height: 80px;
+            background-color: aquamarine;
+            margin: 6px;
+        }
+        .first_content_colum{
+            display: flex;
+            flex-direction: row;
+        }
+        .sub-first_content_colum1{
+            width: 10%;
+            height: 300px;
+            background-color: bisque;
+            margin: 6px;
+        }
+        .second_content_colum{
+            display: flex;
+            flex-direction: column;
+        }
+        .sub-first_content_colum2{
+            width: 200px;
+            height: 80px;
+
+            background-color: rgb(251, 156, 39);
+            margin: 6px;
+        }
+        .sub-second_content_colum2{
+            width: 200px;
+            height: 80px;
+
+            background-color: rgb(251, 156, 39);
+            margin: 6px;
+        }
+        .sub-third_content_colum2{
+            width: 200px;
+            height: 80px;
+
+            background-color: rgb(251, 156, 39);
+            margin: 6px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main_content">
+        <div class="first_row1">header</div>
+        <div class="first_content_colum">
+            <div class="sub-first_content_colum1">nav</div>
+        </div>
+        <div class="second_content_colum">
+            <div class="sub-first_content_colum2"></div>
+            <div class="sub-second_content_colum2"></div>
+            <div class="sub-third_content_colum2"></div>
+        </div>
+        <div class="second_row2">
+            <div class="sub-first_row1">sub-content</div>
+        </div>
+        <div class="second_row2">footer</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let man = "This is my bag"
+        console.log(man.slice(-4))
+        
+        let car = "This is a car"
+        console.log(car.slice(3, 6)) // slice not include end
+
+        let fruit = "apple,banna,pomegranate,greengrapes"
+        console.log(fruit.slice(5,11))
+
+        let carnames = "honda, mahendra, maruti, tata"
+        console.log(carnames.slice(5,15))
+        
+        let bike = "hero, honda, ktm, jawa"
+        console.log(bike.slice(13))
+
+        let state = "maharashtra, punjab, mp, chenni"
+        console.log(state.slice(-12))
+
+        let city = "pune, mumbai, nagpur, nasik"
+        console.log(city.slice(-13,-7))
+
+        let country = "india, usa, uk, germmey"
+        console.log(country.slice(7,10))
+
+        let classes = "first, second, third, fourth, fiveth"
+        console.log(classes.slice(-29,-23))
+
+        let pccomponents = "moniter, keybord, mouse, cpu, speaker"
+        console.log(pccomponents.slice(-19,-13))
+
+        let company = "asus asrock msi bit"
+        console.log(company.slice(12,16))
+
+        let food = "snacks, healthy food, deit, breakfast"
+        console.log(food.slice(8,15))
+
+        let milkproducts = "apanner lasi icecream cream"
+        console.log(milkproducts.slice(1,21))
+
+        let colors = "orange yellow white purple"
+        console.log(colors.slice(9))
+
+        let size = "small big large vergsmall verybig"
+        console.log(size.slice(-17))
+
+        let type = "3W 5W 7W 9W 11W 13W"
+        console.log(type.slice(4,9))
+
+        let port = "oneport  twoports  threeports  fourports"
+        console.log(port.slice(0,7))
+
+
+        let man1 = "bag is my bag"
+        console.log(man1.substring(-4)) // treated as 0
+        
+        let car1 = "This is a car of india"
+        console.log(car1.substring(8,13)) 
+
+        let fruit1 = "apple,banna,pomegranate,greengrapes"
+        console.log(fruit1.substring(11,24))
+
+        let carnames1 = "honda, mahendra, maruti, tata"
+        console.log(carnames1.substring(24))
+        
+        let bike1 = "hero, honda, ktm, jawa"
+        console.log(bike1.substring(6,12))
+
+        let state1 = "maharashtra, punjab, mp, chenni"
+        console.log(state1.substring(13,19))
+
+        let city1 = "pune, mumbai, nagpur, nasik"
+        console.log(city1.substring(0,4))
+
+        let country1 = "india, usa, uk, germmey"
+        console.log(country1.substring(16,0))
+
+        let classes1 = "first, second, third, fourth, fiveth"
+        console.log(classes1.substring(7,13))
+
+        let pccomponents1 = "moniter, keybord, mouse, cpu, speaker"
+        console.log(pccomponents1.substring(19,13))
+
+        let company1 = "asus asrock msi bit"
+        console.log(company1.substring(12,16))
+
+        let food1 = "snacks, healthy food, deit, breakfast"
+        console.log(food1.substring(8,15))
+
+        let milkproducts1 = "apanner lasi icecream cream"
+        console.log(milkproducts1.substring(1,21))
+
+        let colors1 = "orange yellow white purple"
+        console.log(colors1.substring(9))
+
+        let size1 = "small big large vergsmall verybig"
+        console.log(size1.substring(17))
+
+        let type1 = "3W 5W 7W 9W 11W 13W"
+        console.log(type1.substring(4,9))
+
+        let port1 = "oneport  twoports  threeports  fourports"
+        console.log(port1.substring(0,7))
+
+
+        
+        let man2 = "bag is my bag"
+        console.log(man2.substr(7,6))
+        
+        let car2 = "Thisisacarofindia"
+        console.log(car2.substr(4)) 
+
+        let fruit2 = "apple,banna,pomegranate,greengrapes"
+        console.log(fruit2.substr(0,23))
+
+        let carnames2 = "honda, mahendra, maruti, tata"
+        console.log(carnames2.substr(-13))
+
+        let bike2 = "hero, honda, ktm, jawa"
+        console.log(bike2.substr(6,10))
+
+        let state2 = "maharashtra, punjab, mp, chenni"
+        console.log(state1.substr(13))
+
+        let city2 = "pune, mumbai, nagpur, nasik"
+        console.log(city2.substr(0,12))
+
+        let country2 = "india, usa, uk, germmey"
+        console.log(country2.substr(16,3))
+
+        let classes2 = "first, second, third, fourth, fiveth"
+        console.log(classes2.substr(-21))
+
+        let scooter = "wego, accces, activa, vaspa"
+        console.log(scooter.substr(-5))
+
+        let company2 = "asus asrock msi"
+        console.log(company2.substr(5))
+
+        let pccomponents2 = "moniter, keybord, mouse, cpu, speaker"
+        console.log(pccomponents2.substr(-19))
+
+        let food2 = "snacks, healthy food, deit, breakfast"
+        console.log(food2.substr(8,19))
+
+        let milkproducts2 = "apanner lasi icecream cream"
+        console.log(milkproducts2.substr(8,4))
+
+        let colors2 = "orange yellow white purple"
+        console.log(colors2.substr(5))
+
+        let size2 = "small big large vergsmall verybig"
+        console.log(size2.substr(-7))
+
+        let port2 = "oneport  twoports  threeports  fourports" //change it
+        console.log(port.slice(7,20))
+
+
+
+        let text = "this is car"
+        console.log(text.replace("car","bike"))
+
+        let text1 = "capital of india is mumbai"
+        console.log(text1.replace(/Mumbai/i, "delhi")) // case sensetive
+
+        let text3 = "good a more eating is good"
+        console.log(text3.replace(/good/g,"bad")) // replace all
+
+        let text4 = "health is bad"
+        console.log(text4.replace("bad", "good"))
+        
+        let text5 = "bad tast of food"
+        console.log(text5.replace("bad","good"))
+
+        let text6 = "love doges. doges are free to leave in. good are doges."
+        console.log(text6.replaceAll("doges", "cats"))
+
+        let text7 = "this is 1 this is 2 this is 4 "
+        console.log(text7.replace("this is 4", "this is 3"))
+
+
+        let carname = "hero honda"
+        console.log(carname.toUpperCase())
+
+        let fruitname = "JACK FRUIT"
+        console.log(carname.toLowerCase())
+
+
+        let firstname = "test"
+        let lastname = "user"
+        console.log(firstname.concat(" ", lastname))
+
+        let name = "test1"
+        let id = "3421"
+        console.log(name.concat(" ", id))
+
+        let bodycolor = "skin"
+        let bodypartscolor = "eye color: blue"
+        console.log(bodycolor.concat(" ", bodypartscolor))
+
+        let fut = "jack"
+        let futsecond = "fruit"
+        console.log(fut.concat(" ", futsecond))
+
+
+        let toworld = "     Air!     ";
+        console.log(toworld.trim())
+
+        let toworld1 = "     Earth!     ";
+        console.log(toworld1.trimStart())
+
+        let toworld2 = "     Ether!     ";
+        console.log(toworld2.trimEnd())
+
+
+
+        let animals = "dog tiger bat lion"
+        console.log(animals.charAt(4))
+
+        let country3 = "india, usa, uk, germmey"
+        console.log(country3.charAt(16))
+
+        let classes3 = "first, second, third, fourth, fiveth"
+        console.log(classes3.charAt(13))
+ 
+        let food3 = "snacks, healthy food, deit, breakfast"
+        console.log(food3.charAt(16))
+
+        let milkproducts3 = "apanner lasi icecream cream"
+        console.log(milkproducts3.charAt(14))
+
+        let colors3 = "orange yellow white purple"
+        console.log(colors3.charAt(9))
+
+        let size3 = "small big large vergsmall verybig"
+        console.log(size3.charAt(17))
+
+        let type3 = "3W 5W 7W 9W 11W 13W"
+        console.log(type3.charAt(9))
+
+        let port3 = "oneport  twoports  threeports  fourports"
+        console.log(port3.charAt(9))
+
+        let mobile4 = "samsung, iphone, mi, 1pluse"
+        console.log(mobile4.charCodeAt(1))
+
+        let cat5 = "hellow cat"
+        console.log(cat5[1])
+
+
+
+        let pc = "ram rom ssd hdd gpu apu cpu smps"
+        console.log(pc.split(" "))
+
+        let str = "fruitandvegitables"
+        console.log(str.split("and"))
+
+        let str1 = "It iS a 5r&e@@t Day."
+        console.log(str1.split(" ",4))
+
+        let str3 = "Welcome to the javascript"
+        console.log(str3.split("m"))
+
+        let str4 = "Welcome to the javascript"
+        console.log(str3.split())
+
+        let str5 = "Welcome to the javascript"
+        console.log(str3.split("",5))
+
+        let str6 = "'Good Morning! How are you? This is John. John is my friend."
+        console.log(str6.split(/[!,?,.]/))
+
+        let str7 = "'Good Morning! How are you? This is John. John is my friend."
+        console.log(str6.split(/([!,?,.])/))
+
+        let str8 = "Welcome. to the javascript."
+        console.log(str8.split("."))
+
+        let str9 = "Welcome to this practice"
+        console.log(str9.split("this"))
+
+        let exps = "love doges. doges are free to leave in. good are doges."
+        console.log(exps.split("in"))
+
+        let pcparts = "ram, rom, ssd, hdd, gpu, apu, cpu, smps,"
+        console.log(pc.split(", "))
+    </script>
+</body>
+</html>

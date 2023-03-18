@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let person = {
+            firstname: "peppo",
+            lastname: "singh",
+            epid: 3894,
+            alldetails: function(){
+                console.log(this.firstname +" "+ this.lastname +" - "+ this.epid +" - "+ this.age)
+            },
+            age: 32,
+            addreas: {
+                location: "fullad",
+                pincode: 313913,
+                allocation: function(){
+                    console.log(this.location +" "+ this.pincode)
+                },
+                state: {
+                    city: "kb",
+                    place: function(){
+                        console.log(this.city)
+                    },
+                    dist: {
+                        distname: "gb",
+                        area: {
+                            subarea: "tb",
+                            building: "giga",
+                            areadeatails: function(){
+                                console.log(this.subarea +" "+ this.building)
+                            },
+                            flour: {
+                                number: 4,
+                                buildingdeatils: function(){
+                                    console.log(this.number)
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        person.alldetails()
+        person.addreas.allocation()
+        person.addreas.state.place()
+        person.addreas.state.dist.area.areadeatails()
+        person.addreas.state.dist.area.flour.buildingdeatils()
+    </script>
+</body>
+</html>

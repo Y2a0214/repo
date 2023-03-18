@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let employe = [{
+            //firstname: "peppo",
+            //lastname: "singh",
+            //epid: 3894,
+            //age: 32,
+            addreasdetails: {
+                companyName: "Info tec - ",
+                designation: "supervision",
+                fulldeatails: function(){
+                    console.log(this.companyName + " " + this.designation +" "+ this.pf)
+                },
+                pf: "cut45",
+                officeaddreas: {
+                    location: "New Delhi",
+                    locationdeatails: function(){
+                        console.log(this.location)
+                    },
+                    officeowner: {
+                        name: "kumar",
+                        nextobject: function(){
+                            console.log(this.owneraddreas)
+                        },
+                        owneraddreas: {
+                            addreas: "New Delhi",  
+                            pincode: "342-422",
+                            fullowneraddress: function(){
+                                console.log(this.addreas +" "+ this.pincode +" "+ this.pincode)
+                            }                
+                        }
+                    }
+                }
+            } 
+        }]
+        console.log(employe)
+        employe.addreasdetails.fulldeatails()
+        employe.addreasdetails.officeaddreas.locationdeatails()
+        employe.addreasdetails.officeaddreas.officeowner.nextobject()
+        employe.addreasdetails.officeaddreas.officeowner.owneraddreas.fullowneraddress()
+    </script>
+</body>
+</html>

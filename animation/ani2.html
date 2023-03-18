@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .outer{
+        width: 160px;
+        height: 14px;
+        background-color: rgb(192, 190, 190);
+        border-radius: 7px;
+        margin: 100px;
+        overflow: hidden;
+    }
+    .inner{
+        width: 0;
+        height: 100%;
+        background-color: rgb(251, 217, 21);
+        animation: loding 2s linear infinite;
+    }
+    @keyframes loding{
+        
+        100% {
+            width: 100%;
+        }
+    }
+</style>
+<body>
+    <div class="outer">
+        <div class="inner"></div>
+    </div>
+</body>
+</html>

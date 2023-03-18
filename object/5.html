@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let school = {
+            schoolname: "kkms",
+            in: "india",
+            schoolcode: 3344,
+            state: {
+                statename: "maharashtra",
+                pincode: 61237,
+                faculty: {
+                    sports: "all",
+                    location: {
+                        locatedin: "pune",
+                        staff: {
+                            teacher: "good",
+                            pttecher: "very good",
+                            comteacher: "good",
+                            totalstudent: {
+                                totlenumber: "600students",
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        delete ["school"]["state"]["pincode"]
+        school["state"]["faculty"]["location"]["staff"]["totalstudent"]["class"] = "1st to 10th"
+        console.log (school)
+    </script>
+</body>
+</html>

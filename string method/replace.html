@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let cat = "this is my cat"
+        console.log(cat.replace("cat","dog"))
+
+        let dog = "dog is very dangoures"
+        console.log(dog.replace("dog","fox"))
+
+        let text = "this is car"
+        console.log(text.replace("car","bike"))
+
+        let text1 = "capital of india is mumbai"
+        console.log(text1.replace(/Mumbai/i, "delhi"))
+
+        let text4 = "health is bad"
+        console.log(text4.replace("bad", "good"))
+        
+        let text5 = "bad tast of food"
+        console.log(text5.replace("bad","good"))
+        
+        let text7 = "this is 1 this is 2 this is 4 "
+        console.log(text7.replace("this is 4", "this is 3"))
+
+        let animals = "dog are whild, good dog, dog leaves in forest"
+        console.log(animals.replaceAll("dog","animals"))
+
+        let text6 = "love doges. doges are free to leave in. good are doges."
+        console.log(text6.replaceAll("doges", "cats"))
+
+        let text3 = "good a more eating is good"
+        console.log(text3.replace(/good/g,"bad")) //global flag
+
+
+    </script>
+</body>
+</html>

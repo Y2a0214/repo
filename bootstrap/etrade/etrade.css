@@ -1,0 +1,45 @@
+.up-header{
+    display: flex;
+    justify-content: space-evenly;
+}
+.categories_head{
+    display: flex;
+}
+.dropdown{
+    position: relative;
+}
+.categories_nav{
+    position: absolute;
+    left: 310px;
+    top: 121px;
+}
+.fashion_icon img{
+    width: 25px;
+}
+.content_img{
+    margin-left: 219px !important;
+    margin-top: 40px !important;
+}
+.img_clouths img{
+    width: 305px;
+}
+.dress_title{
+    text-align: center;
+}
+.linethrough{
+    text-decoration: line-through;
+}
+.timer{
+    display: flex;
+    flex-direction: row;
+    
+}
+.circle-section{
+    height: 65px;
+    width: 65px;
+    border: none;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    padding: 4px;
+}

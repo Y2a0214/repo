@@ -1,0 +1,327 @@
+body{
+    margin: 0;
+    font-family: "DM Sans", sans-serif;
+}
+.nav_bg{
+    padding: 33px 0px 33px 0px;
+    width: 100%;
+}
+.cream_bg{
+    background-color: rgb(231, 223, 222);
+}
+.container{
+    width: 60%;
+    margin: auto;
+   
+}
+.center-justify{
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    border-radius: 8px;
+    justify-content: space-evenly;
+
+}
+.brand{
+    padding: 14px 23px 14px 14px;
+    margin-right: 12px;
+}
+.mainmenu_nav{
+    position: relative;
+}
+.main_menu{
+    display: flex;
+    list-style: none;
+    font-weight: 700;
+    font-size: 15px;
+    font-family: sans-serif;
+    padding: 0px;
+}
+.main_menu a {
+    text-decoration: none;
+    color: black;
+    margin-right: 14px;
+    padding-right: 25px;
+    margin-right: 15px;
+}
+.wsc{
+    display: flex;
+    width: 100px;
+    justify-content: space-around;
+}
+.search{
+    position: absolute;
+    right: -82px;
+    top: 14px;
+    border: none;
+    background-color: rgba(255, 240, 240, 0);
+    font-size: 15px;
+}
+.row{
+    display: flex;
+    
+}
+.headphone-img img{
+    width: 170px;
+}
+.hot_deals{
+    padding: 90px 0px;
+}
+.logohot,.logotag,.headphone_logo,.basket_logo,.cot_logo,.mostlogo{
+    width: 30px;
+    background-color: #ff497c;
+    border-radius: 50%;
+    padding: 6px;
+    color: whitesmoke;
+    font-size: 13px;
+}
+.logo_title,.tag_title,.logo_title,.cot_title,.mostlogo_title{
+    color: #ff497c;
+    font-weight: 600;
+}
+.deal_title{
+    font-size: 60px;
+    font-weight: bolder;
+    margin-top: 22px;
+}
+.btn-shop button{
+    padding: 20px 46px;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    background-color: aliceblue;
+    border-radius: 6px;
+}
+.list_Category,.thisweek{
+    padding: 90px 0px;
+}
+.Browse_Category,.week_title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.right_left{
+    padding: 14px 22px;
+    background-color: rgb(220, 220, 220);
+    border: none;
+}
+.cat_title,.week_name,.tes_title,.mostsold_title{
+    font-size: 35px;
+    font-weight: bolder;
+    margin-top: 22px;
+}
+.category_center,.products_center{
+    display: flex;
+    justify-content: space-between;
+}
+.main_contenrt{
+    background-color: rgb(240, 240, 240);
+    padding: 65px 80px;
+    border-radius: 6px;
+    margin-top: 95px;
+}
+.row_dontmiss{
+    display: flex;   
+}
+.dontmiss_title{
+    font-size: 48px;
+    font-weight: 700;
+}
+.timer{
+    display: flex;
+    margin: 43px 0px;
+}
+.day,.hrs,.min,.sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-right: 7px;
+}
+.checkout{
+    padding: 17px 38px;
+    border: none;
+    border-radius: 6px;
+    background-color: #3577f0;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+ .headimg{
+    position: relative;
+    width: 50%;
+}
+.headmain_img{
+    position: absolute;
+    right: 3px;
+    bottom: 21px;
+}
+.products_center>.speker> a img{
+    border-radius: 50%;
+    width: 100%;
+   
+    
+}
+/* .hov:hover{
+    transform: scale(1.5);
+    transition: 0.3s;
+    opacity: 1;
+} */
+.color_varent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 12px 0px;
+}
+.color_varent>.color_01>span{
+     border: 2px solid rgba(0, 0, 0, 0);
+    display: flex;
+    width: 21px;
+    height: 21px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 3px 2px;
+    
+}
+.color{
+    background: #ff8666;
+    width: 9px;
+    height: 9px;
+    line-height: 1;
+    border-radius: 50%;
+}
+.product_name{
+    text-align: center;
+    padding: 12px 0px;
+}
+.addcart_btn_center{
+    display: flex;
+    justify-content: center;
+}
+.sopping_ions{
+    padding: 10px 19px;
+    background-color: rgb(216, 216, 216);
+    border: none;
+    border-radius: 6px;
+    margin: 4px;
+}
+.addcart{
+    padding: 14px 31px;
+    background-color: #ff497c;
+    border: none;
+    border-radius: 6px;
+    margin: 4px;
+    color: white;
+    font-size: 14px;
+}
+.testimonials{
+    background-color: rgb(255, 241, 244);
+    padding: 70px 0px;
+}
+.testimonials_title{
+    display: flex;
+    justify-content: space-between;
+}
+.testimoials_mid_content{
+    display: flex;
+}
+.customerandreview_sam{
+    padding: 20px;
+}
+.first_review{
+    background-color: white;
+    padding: 54px;
+    border-radius: 10px;
+}
+.test_profile{
+    display: flex;
+    align-items: center;
+    padding: 22px 0px;
+}
+.mostsold_all_row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.mostsold_col{
+    width: 50%;
+    box-sizing: border-box;
+    padding: 15px;
+}
+.mostsold_subcol{
+    display: flex;
+    padding: 20px 30px;
+    border: 1px solid #dfdfdf;
+    border-radius: 8px;
+}
+.mostsold_product_details{
+    position: relative;
+    padding-right: 35px;
+    width: 70%;
+}
+.product_rating{
+    font-size: 13px;
+    font-weight: 300;
+}
+.product_pricing{
+    font-size: 21px;
+    font-weight: 600;
+}
+.shoping_btn{
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+}
+.btn_icon{
+    padding: 10px;
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 6px;
+    color: #000000;
+    margin-bottom: 10px;
+    display: block;
+}
+.qa_list_row{
+    display: flex;
+    max-height: 55px;
+    align-items: center;
+    justify-content: space-between;
+}
+.qa_tile_name{
+    margin-left: 12px;
+}
+.qa_titles{
+    margin: 6px 0px 0px 0px;
+    color: gray;
+}
+.footer_row{
+    display: flex;
+}
+.addres{
+    line-height: 28px;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 18px 0px 45px 0px;
+}
+.contact_us_details,.accounts_details{
+    list-style: none;
+    padding: 0;
+    line-height: 39px;
+    
+}
+.gmailandphone,.account_accesing{
+    color: gray;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 17px;
+}
+.app{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let cars = [
+        {type:"Volvo", year:2016},
+        {type:"Saab", year:2001},
+        {type:"BMW", year:2010}
+        ];
+        cars.sort(function(a,b){return a.year - b.year})
+        console.log(cars)
+
+        let data = [
+            { name: 'John', age: 30, group: 'A' },
+            { name: 'Mary', age: 25, group: 'B' },
+            { name: 'Mike', age: 20, group: 'A' },
+            { name: 'Jane', age: 15, group: 'C' },
+            { name: 'Peter', age: 25, group: 'B' }
+        ];
+        data.sort(function(a,b){return a.age - b.age})
+        console.log(data)
+
+        let employee = [
+        {id:1,"employee_name":"Tiger Nixon","employee_salary":320800,employee_age:61,"profile_image":""},
+        {id:2,"employee_name":"Garrett Winters","employee_salary":170750,employee_age:63,"profile_image":""},
+        {id:3,"employee_name":"Ashton Cox","employee_salary":86000,employee_age:66,"profile_image":""},
+        {id:4,"employee_name":"Cedric Kelly","employee_salary":433060,employee_age:22,"profile_image":""},
+        {id:5,"employee_name":"Airi Satou","employee_salary":162700,employee_age:33,"profile_image":""},
+        ]
+        employee.sort(function(a,b){return a.employee_age - b.employee_age })
+        console.log(employee)
+
+        let title = [
+        {"id":1,"title":"Fjallraven Fits 15 Laptops","price":109.95},
+        {"id":2,"title":"Mens Casual Premium Slim Fit T-Shirts ","price":22.3},
+        {"id":3,"title":"Mens Casual Premium Slim Fit T-Shirts ","price":67.8},
+        {"id":4,"title":"Mens Casual Premium Slim Fit T-Shirts ","price":43.6},
+        ]
+        title.sort(function(a,b){return a.price - b.price})
+    </script>
+</body>
+</html>

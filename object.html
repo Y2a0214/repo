@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let person = {
+            fname: "ganesh",
+            lname: "bobo",
+            status: "working",
+            addreas: {
+                pincode: 23221,
+                telphonecode: 232,
+                fulladdreas: "fc road, pune",
+                state: {
+                    name: "mahaeashtra",
+                    country: {
+                        countryname: "india",
+                        continent: {
+                            continentname: "asia",
+                            workdetails: {
+                                company: "tcs",
+                                details: {
+                                    companyfor: "tech",
+                                    location: "india",
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        console.log(person)
+        person.addreas.state.country.continent.continentname.countryinasia = "india"
+        person.addreas.state.country.continent.continentname = "firstasia"
+        person.addreas.state.country.continent.workdetails.epid = 3432
+        delete  person.addreas.state.country.continent.workdetails.details.location
+    </script>
+</body>
+</html>

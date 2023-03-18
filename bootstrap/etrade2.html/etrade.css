@@ -1,0 +1,17 @@
+.update_searchbox{
+    position: relative;
+}
+.update_icon_search{
+    border: none;
+    position: absolute;
+    top: 20px;
+    left: 19px;
+    background-color: rgba(240, 248, 255, 0);
+}
+.gmail_search{
+    border-radius: 8px;
+    border: none;
+    background-color: white;
+    padding: 20px 127px 20px 55px;
+    margin-right: 12px;
+}
